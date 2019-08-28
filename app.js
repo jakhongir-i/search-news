@@ -30,4 +30,6 @@ searchInput.addEventListener("keyup", e => {
   } else {
     // ui.showError('Pleas, fill in the field!', 'notification is-danger');
   }
+
+  e.preventDefault();
 });
