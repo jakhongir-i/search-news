@@ -22,6 +22,10 @@ searchInput.addEventListener("keyup", e => {
           ui.showNews(data.data);
           ui.showTopNews(data.topData);
           console.log(data.topData);
+
+        //   if(data.data.length === 0 || data.topData.length === 0){    SHOW ERROR ON 
+        //     ui.showInfoError(searchText);
+        //   }
         })
         .catch(err => console.log(err));
     } else {
